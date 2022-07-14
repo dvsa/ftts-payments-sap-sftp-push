@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "myBlob",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "%AZURE_BLOB_CONTAINER_NAME%/{name}",
+      "connection": "SAP_INTEGRATION_FILE_STORAGE"
+    }
+  ],
+  "scriptFile": "../dist/uploader/index.js"
+}
