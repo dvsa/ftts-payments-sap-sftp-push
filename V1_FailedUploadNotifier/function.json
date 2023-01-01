@@ -1,0 +1,13 @@
+{
+    "bindings": [
+      {
+        "name": "myPoisonTrigger",
+        "type": "queueTrigger",
+        "direction": "in",
+        "queueName": "webjobs-blobtrigger-poison",
+        "connection": "AzureWebJobsStorage",
+        "accessRights": "listen"
+      }
+    ],
+    "scriptFile": "../dist/failedUploadNotifier/index.js"
+  }

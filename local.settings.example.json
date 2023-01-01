@@ -1,0 +1,28 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureFunctionsJobHost__logging__logLevel__Default": "Trace",
+    "APPINSIGHTS_INSTRUMENTATIONKEY": "mock-key",
+    "APP_NAME": "ftts-payments-sap-sftp-push",
+    "AZURE_BLOB_CONTAINER_NAME": "bbb",
+    "AZURE_TENANT_ID": "",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobs.V1_Uploader.Disabled": "false",
+    "AzureWebJobs.V1_FailedUploadNotifier.Disabled": "false",
+    "DISABLE_EGRESS_FILTERING": false,
+    "EGRESS_CUSTOM_ALLOWED_ADDRESSES": "[]",
+    "FUNCTIONS_EXTENSION_VERSION": "~4",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "LOG_LEVEL": "debug",
+    "NODE_ENV": "development",
+    "ROLES_VALIDATION": "true",
+    "SAP_INTEGRATION_FILE_STORAGE": "DefaultEndpointsProtocol=http;AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==;BlobEndpoint=http://127.0.0.1:10000/devstoreaccount1",
+    "SAP_SFTP_DNSSERVERIP": "127.0.0.1",
+    "SAP_SFTP_HOSTNAME": "sftp_server",
+    "SAP_SFTP_PATH": "/upload/",
+    "SAP_SFTP_PORT": "22",
+    "SAP_SFTP_PASSWORD": "pass",
+    "SAP_SFTP_USERNAME": "foo",
+    "WEBSITE_NODE_DEFAULT_VERSION":"~16"
+  }
+}
